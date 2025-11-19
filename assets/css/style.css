@@ -130,3 +130,27 @@ footer a:hover {
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Poppins', sans-serif;
 }
+
+.accordion-item {
+    background-color: #0f0f0f;
+    border-color: #303030;
+}
+
+.accordion-button {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #151515;
+    color: #f1f1f1;
+    box-shadow: none;
+}
+
+.accordion-body {
+    color: #e0e0e0;
+}
+
+.carousel-inner {
+    border: 1px solid #202020 !important;
+}
